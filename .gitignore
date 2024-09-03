@@ -1,0 +1,6 @@
+# Ignore sensitive information
+sites/*/settings.php
+sites/*/settings.local.php
+sites/*/services.yml
+# Ignore Drupal's file directory
+sites/*/files/
