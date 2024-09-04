@@ -1,0 +1,19 @@
+name: Pba
+type: theme
+base theme: false
+description: 'A pba custom theme'
+package: custom
+version: '1.0.0'
+core_version_requirement: ^10
+
+
+libraries:
+  - pba/global-styling
+  
+
+
+regions:
+  main_menu: Main Menu
+  content: Content
+  footer: Footer
+
