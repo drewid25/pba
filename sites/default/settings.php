@@ -883,7 +883,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 $config['system.logging']['error_level'] = 'verbose';
 $databases['default']['default'] = array(
-  'database' => 'mypba',
+  'database' => 'pba',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
