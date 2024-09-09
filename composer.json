@@ -12,6 +12,18 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "enyo/dropzone",
+                "version": "5.9.3",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/dropzone/dropzone/releases/download/v5.9.3/dist.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -19,7 +31,10 @@
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
-        "drupal/core-vendor-hardening": "^10.2"
+        "drupal/core-vendor-hardening": "^10.2",
+        "drupal/dropzonejs": "^2.11",
+        "enyo/dropzone": "^5.9",
+        "laminas/laminas-feed": "^2.22"
     },
     "conflict": {
         "drupal/drupal": "*"
